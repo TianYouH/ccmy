@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import router from './router'
 
-import { Tabbar, TabItem, TabContainer, TabContainerItem, Cell } from 'mint-ui'
+import { Tabbar, TabItem, TabContainer, TabContainerItem, Cell, Header, Button } from 'mint-ui'
 import 'mint-ui/lib/style.css'
 
 import './assets/fontIcons/iconfont.css'
@@ -17,6 +17,8 @@ Vue.component(TabItem.name, TabItem)
 Vue.component(TabContainer.name, TabContainer)
 Vue.component(TabContainerItem.name, TabContainerItem)
 Vue.component(Cell.name, Cell)
+Vue.component(Header.name, Header)
+Vue.component(Button.name, Button)
 
 /* eslint-disable no-new */
 new Vue({
