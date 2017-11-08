@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import router from './router'
 
-import { Tabbar, TabItem, TabContainer, TabContainerItem, Cell, Header, Button } from 'mint-ui'
+import { Lazyload, Tabbar, TabItem, TabContainer, TabContainerItem, Cell, Header, Button } from 'mint-ui'
 import 'mint-ui/lib/style.css'
 
 import './assets/fontIcons/iconfont.css'
@@ -12,6 +12,7 @@ import App from './App'
 
 Vue.config.productionTip = true
 
+Vue.use(Lazyload)
 Vue.component(Tabbar.name, Tabbar)
 Vue.component(TabItem.name, TabItem)
 Vue.component(TabContainer.name, TabContainer)

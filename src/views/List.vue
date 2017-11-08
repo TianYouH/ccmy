@@ -33,6 +33,7 @@ export default {
   methods: {
     toLink (item) {
       console.log(item)
+      this.$router.push({ path: 'imgList', query: item })
     }
   }
 }
