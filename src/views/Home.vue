@@ -11,7 +11,7 @@
         <wait></wait>
       </mt-tab-container-item>
       <mt-tab-container-item id="2">
-        
+        <about></about>
       </mt-tab-container-item>
     </mt-tab-container>
 

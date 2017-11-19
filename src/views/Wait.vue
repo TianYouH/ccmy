@@ -20,16 +20,19 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+$blue: #27a3fc;
+
 #wait {
   display: flex;
   flex: 1;
   justify-content: center;
   align-items: center;
   margin-top: 20%;
+  .icon {
+   font-size: 40vh;
+   color: $blue;
+  }
 }
-.icon {
-  font-size: 40vw;
-  color: #27a3fc
-}
+
 </style>

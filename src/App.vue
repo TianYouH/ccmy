@@ -20,7 +20,9 @@ export default {
 <style>
 html, body {
   height: 100%;
-  width: 100%;
+  background-color: #dfdfdf
+}
+* {
   margin: 0;
 }
 #app {
