@@ -26,6 +26,11 @@ module.exports = {
       '@': resolve('src'),
     }
   },
+  externals: {
+    vue: 'Vue',
+    "vue-router": 'VueRouter',
+    "mint-ui": "MINT"
+  },
   module: {
     rules: [
       {

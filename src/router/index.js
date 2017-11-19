@@ -1,24 +1,28 @@
-import Vue from 'vue'
-import Router from 'vue-router'
+// import Vue from 'vue'
+// import Router from 'vue-router'
 
-Vue.use(Router)
+import Home from '../views/Home.vue'
+import List from '../views/List.vue'
+import ImgList from '../views/ImgList.vue'
 
-export default new Router({
+Vue.use(VueRouter)
+
+export default new VueRouter({
   routes: [
     {
       path: '/',
       name: 'Home',
-      component: resolve => { require(['../views/Home.vue'], resolve) }
+      component: Home
     },
     {
       path: '/list',
       name: 'List',
-      component: resolve => { require(['../views/List.vue'], resolve) }
+      component: List
     },
     {
       path: '/imgList',
       name: 'ImgList',
-      component: resolve => { require(['../views/ImgList.vue'], resolve) }
+      component: ImgList
     }
   ]
 })
